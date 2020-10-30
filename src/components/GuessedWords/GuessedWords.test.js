@@ -12,9 +12,6 @@ const setup = (props = {}) => {
     return shallow(<GuessedWords {...setupProps} />);
 };
 
-// test("renders without error", () => {
-
-// });
 test("does not throw warning with expected props", () => {
     checkProps(GuessedWords, defaultProps);
 });
